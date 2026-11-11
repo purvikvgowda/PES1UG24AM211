@@ -13,8 +13,9 @@ Use Hypothesis property-based testing to discover invalid and edge-case inputs i
 - `requirements.txt` – test dependencies
 - `starter/` – original buggy application and starter test file
 - `REPORT.md` – experiment report and results
-- `SE_LAB_7_Report.pdf` – formatted report (PDF)
-- `screenshots/` – genuine screenshots from local runs
+- `screenshots/` – screenshot folder and naming guide
+
+The formatted PDF report has been generated locally. It still needs to be added to this repository along with the screenshots.
 
 ## Setup
 ```powershell
@@ -32,11 +33,4 @@ python -m pytest -v test_thermostat_control.py
 The local test run collected **29 tests** and reported **29 passed in 6.67 seconds**.
 
 ## Screenshots to include
-Place the genuine terminal screenshots in a `screenshots` folder:
-1. `01_parse_setpoint_error.png`
-2. `02_average_temperature_error.png`
-3. `03_schedule_slot_error.png`
-4. `04_fixed_application.png`
-5. `05_hypothesis_tests.png`
-
-Do not use fabricated terminal output.
+See [screenshots/README.md](screenshots/README.md) for the exact filenames and order. Use the genuine screenshots captured from the local runs; do not fabricate terminal output.
